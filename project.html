@@ -1,0 +1,27 @@
+<?xml version = "1.0"?>
+<!DOCTYPE html PUBLIC "-//w3c/DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns = "http://www.w3.org/1999/xhtml">
+	<head>
+		<title>CSc 4370</title>
+		<script type="text/javascript" src="prj.js">
+		</script>
+		<link href="styles.css" type="text/css" rel="stylesheet" />
+	</head>
+	<body>
+		<h1 align="center">Game of Memory</h1>
+		<div align="center">
+		<script>
+			assign_img()
+		</script>
+		<p>SCORE: <span id="score">0</span></p>
+		<div class="box">
+		<p>
+			Rules: Select 2 cells on the table, and hit match after you're done selecting. Get a match point of 8 to win!
+		</p>
+		</div>
+		<button onclick="matchbutton();clearout()">Match</button>
+		<button onclick="history.go(0)">Restart</button>
+		</div>
+	</body>
+</html>
